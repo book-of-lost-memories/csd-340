@@ -6,7 +6,6 @@
 
 
 
-Vianelis Martinez
-
-Ra Lindsey
+* Vianelis Martinez
+* Ra Lindsey
 
