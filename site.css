@@ -1,0 +1,40 @@
+/*
+  Ra Lindsey
+  Module 3.2 Assignment
+*/
+
+  html, body {
+  font-size: 16px;
+  background-color: #24162a; /* Dark purple web page background for eye comfort */
+}
+
+#container {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+h1, h2, h3, h4 {
+  background-color: #9E73B2; /* Lilac background */
+  color: #24162a;            /* Dark purple text matching web page background */
+  border: 1px solid #D6A800; /* Strong yellow border */
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15px;
+}
+
+a {
+    color: #9E73B2; /* Lilac link color matching header backgrounds */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D6A800; /* Strong yellow on hover */
+}
+
+a:visited {
+    color: #FFFFFF; /* White indicates visited links */        
+}
