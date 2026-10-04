@@ -1,0 +1,41 @@
+/*
+  Ra Lindsey
+  9/25/2026
+  Module 3.3 Assignment
+*/
+
+#container {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+color: rgba(128, 0, 128, 1); /* purple */
+}
+
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 10%;
+}
+
+#image-gallery h3 {
+  text-align: center;
+  color: rgba(0, 255, 0, 1); /* green */
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+  color: rgba(255, 192, 203, 1); /* pink */
+}
