@@ -1,0 +1,132 @@
+/*
+  Ra Lindsey
+  10/18/2026
+  Module 6.2 Assignment
+*/
+
+/* 
+  Colour palette guide:
+  Dark Matcha - #4a6741
+  Matcha Green - #6b8f5e 
+  Sakura Pink - #f7c8d0
+  Dark Sakura - #e8929f 
+  Cream White - #fffaf5 
+  Pale Matcha - #e8f0e3 
+*/
+
+/* Header */
+header{
+    background-color: #4a6741; 
+    color: #fffaf5; 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 400;
+}
+
+/* Navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #6b8f5e;
+    border-bottom: 15px solid #f7c8d0;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #fffaf5;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #f7c8d0;
+    color: #4a6741;
+}
+
+/* Container */
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+    
+/* Card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+    background-color: #fffaf5;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4a6741;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #4a6741;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fffaf5;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f7c8d0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #fffaf5;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fffaf5;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+/* Card and Footer Links */
+.card-content a, footer a {
+    color: #e8929f;
+}
+
+.card-content a:visited, footer a:visited {
+    color: #c76e7d;
+}
+
+.card-content a:hover, footer a:hover {
+    text-decoration: underline;
+}
