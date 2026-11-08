@@ -77,6 +77,19 @@ header h1 {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Card and Footer Links */
+.card-content a, footer a {
+    color: #e8929f;
+}
+
+.card-content a:visited, footer a:visited {
+    color: #c76e7d;
+}
+
+.card-content a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 footer {
     background-color: #4a6741;
@@ -99,34 +112,5 @@ footer a {
 }
 
 footer a:hover {
-    text-decoration: underline;
-}
-
-/* Footer */
-footer {
-    background-color: #fffaf5;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-footer p {
-    color: #fffaf5;
-    font-weight: 400;
-    float: right;
-    padding-right: 10px;
-    font-style: italic;
-}
-
-/* Card and Footer Links */
-.card-content a, footer a {
-    color: #e8929f;
-}
-
-.card-content a:visited, footer a:visited {
-    color: #c76e7d;
-}
-
-.card-content a:hover, footer a:hover {
     text-decoration: underline;
 }
