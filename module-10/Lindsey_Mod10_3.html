@@ -1,0 +1,53 @@
+<!--
+  Ra Lindsey
+  11/15/2026
+  Module 10.3 Assignment
+--> 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content="CSD 340 Assignment 10.3: JavaScript - Part 2">
+    <meta name="author" content="Ra Lindsey">
+    <link href="Lindsey_Mod2_2.css" type="text/css" rel="stylesheet">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+  <script>
+
+  function displayImage(imageFile, targetId) {
+    var largerImage = document.getElementById(targetId);
+    var newNode = document.createElement("img");
+    newNode.id = targetId;
+    newNode.src = imageFile;
+    newNode.alt = "Large Image";
+    newNode.className = "mainImage";
+    largerImage.parentNode.replaceChild(newNode, largerImage);
+  }
+
+  </script>
+</head>
+
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+
+<!-- Popes -->
+<div>
+  <a href="#" onclick="displayImage('pope1.jpg', 'pope'); return false;"
+     onmouseover="document.getElementById('pope').src='pope1.jpg';"
+     onmouseout="document.getElementById('pope').src='pope2.jpg';">
+    <img id="pope" src="pope2.jpg" alt="pope image">
+  </a>
+</div>
+<div>Hover over the image to change it.</div>
+
+<!-- Crosses -->
+<div>
+  <a href="#" onclick="displayImage('cross1.jpg', 'cross'); return false;"
+     onmouseover="document.getElementById('cross').src='cross1.jpg';"
+     onmouseout="document.getElementById('cross').src='cross2.jpg';">
+    <img id="cross" src="cross2.jpg" alt="cross image">
+  </a>
+</div>
+<div>Hover over the image to change it.</div>
+</body>
+</html>
